@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.cnt{
+    margin-top: 80px;
+    text-align: center;
+    height: auto;
+    width:auto;
+    margin-bottom: 50px;
+    .head-cnt h3{
+        color: #171717;
+        font-size: 48px;
+        font-weight: 800;
+        text-align: center;
+    }
+    .head-cnt b{
+        color:  #67af05;
+        font-weight: 800;
+    }
+    .head-cnt p{
+        font-size: 20px;
+        color:#464646;
+        text-align: center;
+        font-weight: 500;
+    }
+    .head-cnt hr{
+        width: 56px;
+       // height: 15px;
+        
+        border-top: 9px solid rgb(140,195,60);
+    }
+
+.cnt-det {
+    text-align: center;
+    outline: none;
+   
+    input{
+        width:300px;
+       height: 45px; 
+        line-break: 1;
+        text-align: left;
+       
+        margin-bottom: 15px;
+        font-size: 18px;
+        background: rgb(238, 238, 238);
+        border: 1px solid rgb(238, 238, 238);
+        color: #3d3e3d;
+        outline:none;
+       padding-left: 15px;
+    }
+    input::placeholder{
+        color: rgba(61, 62, 61, 0.28);
+    } 
+   
+  .txt-left{
+        margin-right: 10px;
+    }
+    .txt-right{
+        margin-left: 10px;
+    }
+    select{
+        outline: none;
+        option{
+            color: rgba(61, 62, 61, 0.28);
+           }
+       
+    }
+   
+    .form-control{
+        width: 621px;
+        background: rgb(238, 238, 238);
+        border: 1px solid rgb(238, 238, 238);
+        color: #757575;
+        margin: 0 auto;
+        text-align: left;
+        font-size: 18px;
+       height: 45px; 
+       margin-bottom: 15px;
+       outline:none;
+       padding-left: 15px;
+    
+    
+    
+}
+textarea::placeholder{
+    color: rgba(61, 62, 61, 0.28);
+}
+
+   textarea{
+        width:621px;
+        height: 150px;
+        color:#3d3e3d;
+        font-size: 18px;
+        background: rgb(238, 238, 238);
+        border: 1px solid rgb(238, 238, 238);
+        text-align: left;
+        outline:none;
+        resize: none;
+        padding-left: 15px;
+    }
+ 
+}
+.send-mail{
+    background: rgb(93,151,16);
+    border:1px solid;
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    color:#ffffff;
+    outline: none;
+    
+}
+}

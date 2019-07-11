@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+ 
+/************************footer main classs**********************************/
+.foot-codeinfo{
+    width: auto;
+    height: auto;
+  background-color:rgb(28, 33,37);
+  color:#ffff;
+.row{
+    width: auto;
+}
+.margins{
+    border-right: 1px solid #636c72;
+    height: 220px;
+}
+.col-md-4{
+    margin: 0 auto;
+    max-width: 313px;
+    margin-top: 36px;
+  margin-bottom: 20px;
+  text-align: left;
+  
+    
+    input{
+        width: 212px;
+        height: 32px;
+        background-color: #333;
+        border:1px solid #333;
+        margin-bottom: 6px;
+        font-size: 14px;
+       
+        
+     
+    }
+  
+    .txt-mess{
+        width: 212px;
+       
+        background-color: #333;
+        border:1px solid #333;
+        height: 76px;
+        
+        font-size: 14px;
+        color:#636c72;
+        outline:none;
+        resize: none;
+    }
+    button{
+        height: 30px;
+    width: 88px;
+    color:#fff;
+    background-color:rgb(110, 165, 37);
+    border: 1px solid rgb(110, 165, 37);
+    font-size: 14px;
+    
+    }
+    h5{
+        font-size: 19px;
+        font-weight: bold;
+        cursor: pointer;
+        
+    }
+    p{
+        font-size: 14px;
+    }
+ 
+}
+.col-md-2{
+    margin: 0 auto;
+    margin-top: 36px;
+    border-right: 1px solid #636c72;
+    height: 220px;
+    margin-left:20px;
+    text-align: left;
+    
+    h5{
+        font-size: 19px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    li{
+        list-style: none;
+        text-align: left;
+        
+    }
+    a{
+        text-decoration: none;
+        color:#fff;
+        font-size: 14px;
+       
+
+    }
+}
+
+
+}
